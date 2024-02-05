@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Colors */
+
+:root {
+  /* Primary */
+  --Strong-Cyan: hsl(171, 66%, 44%);
+  --Light-Blue: hsl(233, 100%, 69%);
+
+  /* Neutral */
+  --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+  --Grayish-Blue: hsl(201, 11%, 66%);
+  /* Typography */
+  --font-wgt-6: 600;
+  --font-wgt-4: 400;
+}
+/* Utility Class */
+.t-sp {
+  letter-spacing: 1.5px;
+  line-height: 1.7rem;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+  /* background-color: var(--Dark-Grayish-Blue); */
+  letter-spacing: 1.5px;
+}
+.container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 95%;
+  margin: auto;
+}
+/* BG */
+.bg {
+  background-image: url(images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* Logo */
+.logo {
+  padding: 7rem 0 4rem 0;
+}
+.logo-div {
+  text-align: center;
+}
+.text-h {
+  padding-top: 20px;
+}
+.text-h h1 {
+  font-size: 3rem;
+  color: var(--Dark-Grayish-Blue);
+}
+.text-h p {
+  padding: 20px 0;
+  color: var(--Grayish-Blue);
+  margin-bottom: 15px;
+  line-height: 2rem;
+}
+/* BTN */
+
+.btn {
+  padding: 18px 36px;
+  border-radius: 3rem;
+  border: none;
+  margin: 0 25px 15px 0;
+  background-color: var(--Strong-Cyan);
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 3px 10px 10px 0px rgba(0, 200, 0, 0.2);
+}
+.mac-btn {
+  background-color: var(--Light-Blue);
+  box-shadow: 3px 10px 10px 0px rgba(0, 0, 200, 0.2);
+}
+.btn:hover {
+  opacity: 0.8 !important;
+}
+.top-section {
+  margin-bottom: 10rem;
+}
+/* TOP END */
+/* MAIN START */
+.main-text {
+  /* width: 60%;
+  margin: auto; */
+}
+.m-h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: var(--Dark-Grayish-Blue);
+}
+.m-p {
+  padding-top: 25px;
+  color: var(--Grayish-Blue);
+  margin-bottom: 10rem;
+}
+
+/* Main Img & text  */
+.m-img-text {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.m-img-text img {
+  max-width: 80%;
+  position: relative;
+  right: 9rem;
+}
+.m-text {
+  flex-direction: column;
+  text-align: left;
+  padding: 40px 0;
+}
+.text {
+  padding-bottom: 40px;
+}
+.text h3 {
+  color: var(--Dark-Grayish-Blue);
+  padding-bottom: 5px;
+}
+.text p {
+  color: var(--Grayish-Blue);
+  font-size: 0.9rem;
+}
+/* Ent Top Main */
+
+.btom-text-1 {
+  margin: 3.5rem 0 6.3rem 0;
+}
+.btom-text-1 h2 {
+  color: var(--Dark-Grayish-Blue);
+}
+.btom-text-1 p {
+  color: var(--Grayish-Blue);
+  padding-top: 20px;
+}
+.btom-text-2 h2 {
+  color: var(--Dark-Grayish-Blue);
+  padding-top: 5rem;
+}
+.btom-text-2 p {
+  color: var(--Grayish-Blue);
+  padding-top: 10px;
+}
+.btom-img-text {
+  text-align: center;
+}
+.btom-pic img {
+  max-width: 100%;
+}
+/* Box Text & Img */
+
+.box-pic-1 {
+  display: flex;
+  padding: 5rem 0;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.box-t-i {
+  max-width: 80%;
+  margin-top: 25px;
+}
+.box-t-i h3 {
+  padding: 15px 0 10px 0;
+  color: var(--Dark-Grayish-Blue);
+  font-size: 25px;
+}
+.box-t-i p {
+  font-size: 15px;
+  padding: 10px 0 10px 20px;
+  color: var(--Grayish-Blue);
+  width: 100%;
+}
+.up {
+  padding-top: 10px;
+}
+
+/* BOX IMG 2 */
+.pic-box-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.box-i {
+  margin: 55px;
+}
+.box-i img {
+  max-width: 100%;
+}
+/* ClipBoard */
+.clipboard {
+  padding-top: 10rem;
+}
+.clipboard h2 {
+  color: var(--Dark-Grayish-Blue);
+  padding-bottom: 20px;
+}
+.clipboard p {
+  color: var(--Grayish-Blue);
+  padding-bottom: 3rem;
+  width: 50%;
+  margin: auto;
+}
+.clipboard .m-btn {
+  padding-bottom: 5rem;
+}
+
+/* FOOTER */
+
+footer li {
+  list-style: none;
+}
+.footer-bg {
+  background-color: rgb(245, 246, 248);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.footer-d {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 100%;
+}
+.footer-social-icon ul {
+  display: flex;
+  padding-left: 20rem;
+}
+.footer-social-icon ul li {
+  margin: 15px;
+}
+
+.footer-logo {
+  padding-right: 8rem;
+}
+
+.footer-logo img {
+  width: 65px;
+  height: 65px;
+  float: left;
+}
+
+/* FOOTER SOCIAL ICLNS */
+
+.icon-hover:hover {
+  color: var(--Strong-Cyan);
+  cursor: pointer;
+}
+/* THREE BOX */
+.nav-box {
+  display: flex;
+  justify-content: left;
+}
+
+.box {
+  text-align: left;
+  margin: 0 15px 0 0;
+}
+.box li {
+  margin: 15px 0;
+}
+.box li:hover {
+  color: var(--Strong-Cyan);
+  cursor: pointer;
+}
+
+/* Media Section */
+@media (max-width: 768px) {
+  /* Logo BG */
+  .bg {
+    background-image: url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+  }
+
+  .m-img-text {
+    display: block;
+    margin: 0;
+  }
+  .m-img-text img {
+    max-width: 100%;
+    right: 0;
+  }
+  /* BUTTON */
+  .btn {
+    padding: 15px 4rem;
+    margin: 0 5px 25px 5px;
+    font-size: 18px;
+  }
+  .m-btn {
+    margin: 3rem 0;
+  }
+  .main-text {
+    padding-top: 50px;
+  }
+  .m-p {
+    margin-bottom: 5rem;
+  }
+  .m-text {
+    text-align: center;
+  }
+  /* Box Text & Img */
+  .box-pic-1 {
+    flex-direction: column;
+  }
+  .pic-box-2 {
+    flex-direction: column;
+  }
+  .btom-text-2 h2 {
+    color: var(--Dark-Grayish-Blue);
+    margin-top: 5rem;
+  }
+  .box-i {
+    margin: 55px 0 0 0;
+  }
+  /* Clip Board */
+  .clipboard p {
+    width: 80%;
+  }
+  /* FOOTER */
+  .footer-d {
+    flex-direction: column;
+  }
+  .footer-logo {
+    padding: 0;
+  }
+  .footer-social-icon ul {
+    padding: 0;
+  }
+  .f-box {
+    margin: 10px 0;
+  }
+  .nav-box {
+    flex-direction: column;
+    padding: 30px 0;
+  }
+  .box {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .box li {
+    margin: 0 0 15px 0;
+  }
+}
+@media (max-width: 375px) {
+  /* BUTTON */
+  .btn {
+    padding: 15px 4rem;
+    margin: 0 5px 25px 5px;
+    font-size: 18px;
+  }
+}
